@@ -84,21 +84,53 @@
 		51149A2F280F056B005FDA1E /* Facebook Integration */ = {
 			isa = PBXGroup;
 			children = (
+				51149A522810C78B005FDA1E /* Model */,
+				51149A532810C79C005FDA1E /* View */,
+				51149A552810C7DD005FDA1E /* Controller */,
 				51149A30280F056B005FDA1E /* AppDelegate.swift */,
 				51149A32280F056B005FDA1E /* SceneDelegate.swift */,
-				51149A34280F056B005FDA1E /* ViewController.swift */,
-				51149A36280F056B005FDA1E /* Main.storyboard */,
 				51149A39280F056D005FDA1E /* Assets.xcassets */,
 				51149A3B280F056D005FDA1E /* LaunchScreen.storyboard */,
 				51149A3E280F056D005FDA1E /* Info.plist */,
-				51149A46280F5D3C005FDA1E /* ListViewController.swift */,
+			);
+			path = "Facebook Integration";
+			sourceTree = "<group>";
+		};
+		51149A522810C78B005FDA1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				51149A48280FDBF3005FDA1E /* Hotel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51149A532810C79C005FDA1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51149A542810C7BF005FDA1E /* Cells */,
+				51149A36280F056B005FDA1E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51149A542810C7BF005FDA1E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
 				51149A4A28101DE2005FDA1E /* HotelTableViewCell.swift */,
 				51149A4B28101DE2005FDA1E /* HotelTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		51149A552810C7DD005FDA1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51149A34280F056B005FDA1E /* ViewController.swift */,
+				51149A46280F5D3C005FDA1E /* ListViewController.swift */,
 				51149A4E28105871005FDA1E /* DetailViewController.swift */,
 				51149A502810A3A7005FDA1E /* NetworkService.swift */,
 			);
-			path = "Facebook Integration";
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		BEB1EE98DFEE73E6119B5D05 /* Frameworks */ = {
