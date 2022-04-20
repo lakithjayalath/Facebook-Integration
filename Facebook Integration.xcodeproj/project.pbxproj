@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4E02EB105D64C6E26F5801 /* Pods_Facebook_Integration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A47AE1070872AF75116FD1 /* Pods_Facebook_Integration.framework */; };
 		51149A31280F056B005FDA1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51149A30280F056B005FDA1E /* AppDelegate.swift */; };
 		51149A33280F056B005FDA1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51149A32280F056B005FDA1E /* SceneDelegate.swift */; };
 		51149A35280F056B005FDA1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51149A34280F056B005FDA1E /* ViewController.swift */; };
 		51149A38280F056B005FDA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51149A36280F056B005FDA1E /* Main.storyboard */; };
 		51149A3A280F056D005FDA1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51149A39280F056D005FDA1E /* Assets.xcassets */; };
 		51149A3D280F056D005FDA1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51149A3B280F056D005FDA1E /* LaunchScreen.storyboard */; };
+		51149A47280F5D3C005FDA1E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51149A46280F5D3C005FDA1E /* ListViewController.swift */; };
+		51149A49280FDBF3005FDA1E /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51149A48280FDBF3005FDA1E /* Hotel.swift */; };
+		51149A4C28101DE2005FDA1E /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51149A4A28101DE2005FDA1E /* HotelTableViewCell.swift */; };
+		51149A4D28101DE2005FDA1E /* HotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51149A4B28101DE2005FDA1E /* HotelTableViewCell.xib */; };
+		51149A4F28105871005FDA1E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51149A4E28105871005FDA1E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44A47AE1070872AF75116FD1 /* Pods_Facebook_Integration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebook_Integration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51149A2D280F056B005FDA1E /* Facebook Integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook Integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51149A30280F056B005FDA1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51149A32280F056B005FDA1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		51149A39280F056D005FDA1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51149A3C280F056D005FDA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51149A3E280F056D005FDA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51149A46280F5D3C005FDA1E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		51149A48280FDBF3005FDA1E /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		51149A4A28101DE2005FDA1E /* HotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewCell.swift; sourceTree = "<group>"; };
+		51149A4B28101DE2005FDA1E /* HotelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelTableViewCell.xib; sourceTree = "<group>"; };
+		51149A4E28105871005FDA1E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7256C16254F61DB8D061EE6D /* Pods-Facebook Integration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook Integration.release.xcconfig"; path = "Target Support Files/Pods-Facebook Integration/Pods-Facebook Integration.release.xcconfig"; sourceTree = "<group>"; };
+		7E8253AB573EEDBCA3E6352B /* Pods-Facebook Integration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook Integration.debug.xcconfig"; path = "Target Support Files/Pods-Facebook Integration/Pods-Facebook Integration.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A4E02EB105D64C6E26F5801 /* Pods_Facebook_Integration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A22FB234580D1883CE0284C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E8253AB573EEDBCA3E6352B /* Pods-Facebook Integration.debug.xcconfig */,
+				7256C16254F61DB8D061EE6D /* Pods-Facebook Integration.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		51149A24280F056B005FDA1E = {
 			isa = PBXGroup;
 			children = (
 				51149A2F280F056B005FDA1E /* Facebook Integration */,
 				51149A2E280F056B005FDA1E /* Products */,
+				4A22FB234580D1883CE0284C /* Pods */,
+				BEB1EE98DFEE73E6119B5D05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +89,21 @@
 				51149A39280F056D005FDA1E /* Assets.xcassets */,
 				51149A3B280F056D005FDA1E /* LaunchScreen.storyboard */,
 				51149A3E280F056D005FDA1E /* Info.plist */,
+				51149A46280F5D3C005FDA1E /* ListViewController.swift */,
+				51149A48280FDBF3005FDA1E /* Hotel.swift */,
+				51149A4A28101DE2005FDA1E /* HotelTableViewCell.swift */,
+				51149A4B28101DE2005FDA1E /* HotelTableViewCell.xib */,
+				51149A4E28105871005FDA1E /* DetailViewController.swift */,
 			);
 			path = "Facebook Integration";
+			sourceTree = "<group>";
+		};
+		BEB1EE98DFEE73E6119B5D05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44A47AE1070872AF75116FD1 /* Pods_Facebook_Integration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51149A41280F056D005FDA1E /* Build configuration list for PBXNativeTarget "Facebook Integration" */;
 			buildPhases = (
+				C09D305255C5DA2B4B2A824F /* [CP] Check Pods Manifest.lock */,
 				51149A29280F056B005FDA1E /* Sources */,
 				51149A2A280F056B005FDA1E /* Frameworks */,
 				51149A2B280F056B005FDA1E /* Resources */,
+				BE18D811560B01D7AE46C5CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +168,67 @@
 			files = (
 				51149A3D280F056D005FDA1E /* LaunchScreen.storyboard in Resources */,
 				51149A3A280F056D005FDA1E /* Assets.xcassets in Resources */,
+				51149A4D28101DE2005FDA1E /* HotelTableViewCell.xib in Resources */,
 				51149A38280F056B005FDA1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BE18D811560B01D7AE46C5CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Facebook Integration/Pods-Facebook Integration-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Facebook Integration/Pods-Facebook Integration-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Facebook Integration/Pods-Facebook Integration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C09D305255C5DA2B4B2A824F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Facebook Integration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51149A29280F056B005FDA1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51149A4C28101DE2005FDA1E /* HotelTableViewCell.swift in Sources */,
+				51149A49280FDBF3005FDA1E /* Hotel.swift in Sources */,
 				51149A35280F056B005FDA1E /* ViewController.swift in Sources */,
 				51149A31280F056B005FDA1E /* AppDelegate.swift in Sources */,
+				51149A47280F5D3C005FDA1E /* ListViewController.swift in Sources */,
 				51149A33280F056B005FDA1E /* SceneDelegate.swift in Sources */,
+				51149A4F28105871005FDA1E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +370,7 @@
 		};
 		51149A42280F056D005FDA1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8253AB573EEDBCA3E6352B /* Pods-Facebook Integration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +384,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,12 +394,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		51149A43280F056D005FDA1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7256C16254F61DB8D061EE6D /* Pods-Facebook Integration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +414,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +424,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
