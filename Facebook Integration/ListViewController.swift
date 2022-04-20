@@ -16,11 +16,13 @@ class ListViewController: UIViewController {
     @IBOutlet var tableView: UITableView!
     @IBOutlet var activityIndicator: UIActivityIndicatorView!
     
+    var name: String?
+    var email: String?
+    
     var hotelData: [HotelData] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         setUp()
     }
     
@@ -28,6 +30,12 @@ class ListViewController: UIViewController {
         setUpTableView()
         fetchHotels()
         self.setActivityIndicatorVisibility(show: true)
+        setUpLabels(name: name, email: email)
+    }
+    
+    func setUpLabels(name: String?, email: String?) {
+        nameLabel.text = name
+        emailLabel.text = email
     }
     
     func setUpTableView() {
@@ -35,6 +43,12 @@ class ListViewController: UIViewController {
         tableView.dataSource = self
         tableView.rowHeight = UITableView.automaticDimension
         setUpTableViewCell()
+    }
+    
+    
+    @IBAction func logOutAction(_ sender: Any) {
+        print("LOGOUT")
+        navigationController?.popToRootViewController(animated: true)
     }
     
     func setActivityIndicatorVisibility(show: Bool) {

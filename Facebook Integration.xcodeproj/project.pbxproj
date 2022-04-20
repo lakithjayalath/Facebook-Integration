@@ -19,6 +19,7 @@
 		51149A4C28101DE2005FDA1E /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51149A4A28101DE2005FDA1E /* HotelTableViewCell.swift */; };
 		51149A4D28101DE2005FDA1E /* HotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51149A4B28101DE2005FDA1E /* HotelTableViewCell.xib */; };
 		51149A4F28105871005FDA1E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51149A4E28105871005FDA1E /* DetailViewController.swift */; };
+		51149A512810A3A7005FDA1E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51149A502810A3A7005FDA1E /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		51149A4A28101DE2005FDA1E /* HotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewCell.swift; sourceTree = "<group>"; };
 		51149A4B28101DE2005FDA1E /* HotelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelTableViewCell.xib; sourceTree = "<group>"; };
 		51149A4E28105871005FDA1E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		51149A502810A3A7005FDA1E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		7256C16254F61DB8D061EE6D /* Pods-Facebook Integration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook Integration.release.xcconfig"; path = "Target Support Files/Pods-Facebook Integration/Pods-Facebook Integration.release.xcconfig"; sourceTree = "<group>"; };
 		7E8253AB573EEDBCA3E6352B /* Pods-Facebook Integration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook Integration.debug.xcconfig"; path = "Target Support Files/Pods-Facebook Integration/Pods-Facebook Integration.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 				51149A4A28101DE2005FDA1E /* HotelTableViewCell.swift */,
 				51149A4B28101DE2005FDA1E /* HotelTableViewCell.xib */,
 				51149A4E28105871005FDA1E /* DetailViewController.swift */,
+				51149A502810A3A7005FDA1E /* NetworkService.swift */,
 			);
 			path = "Facebook Integration";
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			files = (
 				51149A4C28101DE2005FDA1E /* HotelTableViewCell.swift in Sources */,
 				51149A49280FDBF3005FDA1E /* Hotel.swift in Sources */,
+				51149A512810A3A7005FDA1E /* NetworkService.swift in Sources */,
 				51149A35280F056B005FDA1E /* ViewController.swift in Sources */,
 				51149A31280F056B005FDA1E /* AppDelegate.swift in Sources */,
 				51149A47280F5D3C005FDA1E /* ListViewController.swift in Sources */,
